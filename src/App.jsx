@@ -8,12 +8,12 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div className='main'>
         <Profile/>
         <ContactButtons/>
         <About/>
         <Footer/>
-    </>
+    </div>
   )
 }
 
