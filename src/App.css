@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -28,8 +29,11 @@
     border-radius: 10px, 10px;
 }
 
-.contact-buttons {
-    text-align: center;
+.contact-buttons > button{
+ width: 20%;
+ padding: 5px;
+ margin-right: 5%;
+ margin-left: 5%;
 }
 
 .about {
