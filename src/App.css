@@ -5,22 +5,33 @@
 }
 
 .main {
-    position: relative;
-    margin-top: 1.5%;
-    left: 35%;
     height: 700px;
     width: 500px;
     background-color: #3C4135;
     border-radius: 52px;
 }
 
+.profile {
+    text-align: center;
+}
+
+.profile > h1, h2, p {
+    margin: 10px;
+}
 
 .profile > img {
-    position: relative;
     border-radius: 20px;
-    top: 10px;
-    left: 35%;
+    box-shadow: 7px 7px 9px black;
+    margin-top: 4%;
     width: auto;
     height: 244px;
     border-radius: 10px, 10px;
+}
+
+.contact-buttons {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
 }
