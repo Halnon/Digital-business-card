@@ -5,13 +5,20 @@
 }
 
 .main {
-    display: flex;
+    display: block;
+    position: relative;
+    margin-top: 1.5%;
+    left: 35%;
     height: 700px;
     width: 500px;
     background-color: #3C4135;
+    border-radius: 52px;
 }
 
 img {
-    width: 197px;
-    height: auto;
+    display: block;
+    position: relative;
+    left: 35%;
+    width: auto;
+    height: 244px;
 }
