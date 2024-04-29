@@ -4,10 +4,10 @@ export default function ContactButtons() {
     return (
         <>
             <div className='contact-buttons'>
-            <button>
+            <button><i class="fa-regular fa-envelope"></i>
                 Email
             </button>
-            <button>
+            <button><i class="fa-brands fa-linkedin"></i>
                 LinkedIn
             </button>
             </div>
