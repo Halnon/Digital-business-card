@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    text-align: center;
     margin: 0;
     padding: 0;
     font-family: Snippet, serif, sans-serif;
@@ -8,7 +7,7 @@
 
 .main {
     height: 100%;
-    width: 500px;
+    width: 400px;
     background-color: #3C4135;
     border-radius: 52px;
 }
@@ -40,15 +39,20 @@
     border-radius: 10px, 10px;
 }
 
+.contact-buttons {
+    text-align: center;
+}
+
 button:hover {
     color: #CF7F20;
 }
 
 #email_button, #linkedin_button {
-    width: 20%;
-    padding: 5px;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 115px;
+    border: none;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 #email_button:hover {
@@ -57,4 +61,12 @@ button:hover {
 
 #linkedin_button:hover {
     background-color: #0077b5;
+}
+
+.about {
+    padding: 0 30px;
+}
+
+#interests {
+    padding-bottom: 20px;
 }
