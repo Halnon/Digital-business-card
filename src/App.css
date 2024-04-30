@@ -7,7 +7,7 @@
 }
 
 .main {
-    height: 700px;
+    height: 100%;
     width: 500px;
     background-color: #3C4135;
     border-radius: 52px;
@@ -25,10 +25,10 @@
     font-family: Mate SC;
     color: #CF7F20;
     text-shadow:
-    3px 3px 0 #000,
-    -3px 3px 0 #000,
-    -3px -3px 0 #000,
-    3px -3px 0 #000;
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 
 .profile > img {
@@ -40,13 +40,21 @@
     border-radius: 10px, 10px;
 }
 
-.contact-buttons > button{
- width: 20%;
- padding: 5px;
- margin-right: 5%;
- margin-left: 5%;
-}
-
 button:hover {
     color: #CF7F20;
+}
+
+#email_button, #linkedin_button {
+    width: 20%;
+    padding: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#email_button:hover {
+    background-color: grey;
+}
+
+#linkedin_button:hover {
+    background-color: #0077b5;
 }
