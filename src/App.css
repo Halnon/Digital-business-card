@@ -8,7 +8,8 @@
 .main {
     height: 100%;
     width: 400px;
-    background-color: #3C4135;
+    background: radial-gradient(#3C4135 35%, #f59b00 100%);
+    border: 5px solid rgb(112, 109, 109);
     border-radius: 52px;
 }
 
@@ -70,3 +71,6 @@ button:hover {
 #interests {
     padding-bottom: 20px;
 }
+ p {
+    color: rgb(235, 193, 166);
+ }
